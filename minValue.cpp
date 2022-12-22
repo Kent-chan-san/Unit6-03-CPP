@@ -28,7 +28,7 @@ int main() {
     // Defining variables.
     const int MIN_NUM = 0;
     const int MAX_NUM = 100;
-    const int randomNum;
+    int randomNum;
     std::array<int, MAX_ARRAY_SIZE> randNumArray;
     srand(time(NULL));
     // Getting random numbers to fill up the random number array/list.
